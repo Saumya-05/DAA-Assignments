@@ -3,7 +3,7 @@
 #include<string>
 using namespace std;
 
-string linearSearch(int arr[],int n, int key)
+string binarySearch(int arr[],int n, int key)
 {
     int l=0,u=n-1,c=0;
     while(l<=u)
@@ -40,7 +40,7 @@ int main()
             cin>>arr[j];
         }
         cin>>key;
-        ans[i]=linearSearch(arr,n,key);
+        ans[i]=binarySearch(arr,n,key);
     }
     for(i=0;i<t;i++)
     {
