@@ -1,0 +1,3 @@
+-21 -13 12 45 46 65 76 89 
+No. of comparisons = 28
+No. of swaps = 7
